@@ -39,18 +39,16 @@ input {
     align-items: center;
 }
 
+
 .bigger_image {
+    font-size: large;
     height: 50px;
-    width: 20px;
+    width: 1000px;
     background-color: wheat;
     color: navy;
     width: fit-content
 }
 
-.bigger_image {
-    height: 100px;
-    width: 100px;
-    background-color: wheat;
-    color: navy;
-    width: fit-content
+li {
+    font-size: large;
 }

@@ -38,7 +38,22 @@ module.exports = {
     addFortune: (req, res) => {
         fortunes.push(req.body.f)
         // console.log(req.body.f)
-        let x = req.body.f
-        res.status(200).send(`new fortune added ${x}`)
+        //let x = req.body.f
+        res.status(200).send(fortunes)
+    },
+
+    get_all_fortune: (req, res) => {
+        res.status(200).send(fortunes)
+    },
+
+    delete_fortune: (req, res) => {
+        for (let i = 0; i < fortunes.length; i++) {
+            //console.log(req.query.del)
+            if (fortunes[i].includes(req.query.del)) {
+                fortunes.splice(i, 1)
+                //console.log(fortunes[i])
+            }
+        }
+        res.status(200).send(fortunes)
     }
 }

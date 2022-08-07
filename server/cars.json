@@ -1,13 +1,21 @@
 [
   {
     "year": 2019,
-    "imageURL" : ["./11.jpg", "./22.jpg", "./33.jpg"
+    "imageURL" : ["../server/11.jpg", "../server/22.jpg", "../server/33.jpg"
     ],
-    "price": [290000, 56000, 65880]
+    "price": ["$56000", "$96050", "$65880"],
+    "id": [1, 2, 3]
   },
   {
     "year": 2020,
-    "imageURL" : ["./44.jpg", "./55.jpg", "./66.jpg"],
-    "price": [330000, 56000, 894500]
+    "imageURL" : ["../server/44.jpg", "../server/55.jpg", "../server/66.jpg"],
+    "price": ["$23000", "$156050", "$55180"],
+    "id": [4, 5, 6]
+  }, 
+  {
+    "year": 2021,
+    "imageURL" : ["../server/77.jpg", "../server/88.jpg", "../server/99.jpg"],
+    "price": ["$53310", "$93020", "$23568"],
+    "id": [7, 8, 9]
   }
 ]
